@@ -7,7 +7,7 @@
 
 body {
   font-family: 'Inter', 'Segoe UI', 'Roboto', Arial, sans-serif;
-  background: #f0f4f8; /* soft light background */
+  background: #f0f4f8;
   color: #333;
   line-height: 1.6;
   font-weight: 400;
@@ -19,8 +19,8 @@ body {
   margin: 40px auto;
   padding: 30px 20px;
   background: #ffffff;
-  border-radius: 20px; /* soft rounded edges */
-  box-shadow: 0 8px 25px rgba(0,0,0,0.08); /* soft shadow */
+  border-radius: 20px;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.08);
 }
 
 /* Header */
@@ -32,13 +32,13 @@ header {
 header h1 {
   font-size: 2rem;
   font-weight: 500;
-  color: #2c3e50; /* soft dark blue-grey */
+  color: #2c3e50;
   margin-bottom: 5px;
 }
 
 header p {
   font-size: 1rem;
-  color: #6c7a89; /* muted grey */
+  color: #6c7a89;
   margin-bottom: 15px;
 }
 
@@ -60,27 +60,30 @@ header p {
   margin-bottom: 15px;
 }
 
-/* Sections */
-section {
-  margin-bottom: 30px;
-  padding: 0 10px;
+/* Sections (Cards) */
+.card {
+  background: #f8fafd;
+  border-radius: 15px;
+  padding: 15px 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.03);
 }
 
-section h2 {
+.card h2 {
   margin-bottom: 10px;
   font-size: 1.6rem;
   color: #34495e;
   font-weight: 500;
-  border-left: 4px solid #85c1e9; /* soft blue accent */
+  border-left: 4px solid #85c1e9;
   padding-left: 12px;
 }
 
-section p {
+.card p {
   margin-bottom: 10px;
   color: #555;
 }
 
-/* Buttons / Links */
+/* Contact Buttons */
 .contact {
   display: flex;
   flex-wrap: wrap;
@@ -92,7 +95,7 @@ section p {
 .contact a {
   display: inline-block;
   padding: 10px 22px;
-  background: #85c1e9; /* soft blue */
+  background: #85c1e9;
   color: #fff;
   border-radius: 12px;
   text-decoration: none;
